@@ -72,10 +72,10 @@ public class TerciaryControll {
     }
 
     public void BotoAfegir() {
-        if (!ComboTaula.getItems().isEmpty() && !ComboProducte.getItems().isEmpty() && !NumeroClients.getText().isEmpty() && !QuantitatProducte.getText().isEmpty()
-                && Integer.parseInt(NumeroClients.getText()) >= 1 && Integer.parseInt(QuantitatProducte.getText()) >= 1) {
+        if (!ComboTaula.getItems().isEmpty() && !ComboProducte.getItems().isEmpty() && !NumeroClients.getText().isEmpty() && !QuantitatProducte.getText().isEmpty()) {
             try {
                 // Intenta convertir el text de NumeroClients a un enter
+                
                 int numClients = Integer.parseInt(NumeroClients.getText());
                 int quantitatProducte = Integer.parseInt(QuantitatProducte.getText());
 
@@ -95,7 +95,7 @@ public class TerciaryControll {
                 }
             } catch (NumberFormatException e) {
                 // En cas d'error, mostra un missatge d'alerta
-                Alert alert = new Alert(Alert.AlertType.INFORMATION);
+                Alert alert = new Alert(Alert.AlertType.ERROR);
                 alert.setTitle("Error");
                 alert.setHeaderText("'Numero de clients' i 'Quantitat del producte' han de ser números enters.");
                 Optional<ButtonType> result = alert.showAndWait();

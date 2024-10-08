@@ -1,0 +1,12 @@
+com/mycompany/projecte_app/model/Cambrer.class
+com/mycompany/projecte_app/model/Producte.class
+com/mycompany/projecte_app/PrimaryController.class
+com/mycompany/projecte_app/model/Taula.class
+com/mycompany/projecte_app/QuaternaryControll.class
+com/mycompany/projecte_app/TerciaryControll.class
+com/mycompany/projecte_app/model/Comanda.class
+module-info.class
+com/mycompany/projecte_app/SecondaryController.class
+com/mycompany/projecte_app/App.class
+com/mycompany/projecte_app/model/GestioDades.class
+com/mycompany/projecte_app/model/Connexio_BD.class

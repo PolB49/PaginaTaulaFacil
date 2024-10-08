@@ -13,6 +13,7 @@ import javafx.scene.control.TextField;
 public class PrimaryController {
     //INICI DE SESSIÓ
     
+    //Instanciar a la classe GestioDades
      GestioDades gestiodades = new GestioDades(); //MOLT IMPORTANT -- INSTANCIAR LA CLASSE
     
     @FXML
